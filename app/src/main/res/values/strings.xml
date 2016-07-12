@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SmapleBasicWidget</string>
+    <string name="message_text">Text View Text View Text View Text View Text View Text View Text View Text View Text View Text View Text View Text View Text View Text View</string>
+    <string name="text_message"><![CDATA[<font color="red">Hi</font>, <h1>Android</h1>]]></string>
+    <string name="link_text_auto"><b>text view </b>
+    http://google.com zzzzzzz kureum12@naver.com zzzzzzzz 010-1234-1234</string>
 </resources>

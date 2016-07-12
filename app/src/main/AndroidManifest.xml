@@ -8,16 +8,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".LinearActivity" />
-        <activity android:name=".RelativeActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GridActivity"></activity>
+        <activity
+            android:name=".LinearActivity"
+            android:exported="true" />
+        <activity android:name=".RelativeActivity" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".TextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity
+            android:name=".CheckActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity android:name=".ImageActivity"></activity>
     </application>
 
 </manifest>
